@@ -1,0 +1,15 @@
+file,study_table,rows,source,built_on
+prices.csv.gz,dash_prices,207601,retail_clean_flagged.csv,2026-11-18
+holdout.csv.gz,dash_forecast_holdout,49864,forecast_results_paired.csv,2026-11-18
+model_metrics.csv.gz,dash_forecast_metrics,12486,12_series_metrics.csv,2026-11-18
+matched_changes.csv.gz,dash_period_series,2689,"10_matched_series_*.csv, 13_calendar_balanced_*.csv",2026-11-18
+period_summary.csv,dash_period_summary,306,"10_pan_post_by_*.csv, 10B_category_region_cells.csv",2026-11-18
+forecast_summary.csv,dash_forecast_summary,1413,"12_accuracy_*.csv, 12_sarima_vs_*.csv, 12B_*.csv",2026-11-18
+forecast_future.csv.gz,dash_forecast_future,24060,16_datapack_preparation.py (SARIMA refit through Jun 2026),2026-11-18
+monitoring.csv.gz,dash_monitoring,2623,retail_clean_flagged.csv,2026-11-18
+markets.csv,dash_markets,97,09B_market_profile.csv,2026-11-18
+commodities.csv,dash_commodities,64,09B_commodity_coverage.csv,2026-11-18
+chain_index.csv,dash_chain_index,1718,"09_chain_index_category_A.csv, 09_chain_index_B.csv",2026-11-18
+series_stats.csv,dash_series_stats,2725,09_series_stats.csv,2026-11-18
+about.csv,dash_about,23,"study_config.py, Steps 2, 3, 5, 10, 12",2026-11-18
+interval_coverage.csv,16_interval_calibration_check,16,16_interval_calibration_check.csv,2026-11-18
